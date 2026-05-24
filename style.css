@@ -28,3 +28,11 @@ h6 {
   font-weight: 700;
   font-size: 12px;
 }
+
+h3 {
+  color: #222;
+}
+
+p {
+  color: hsl(154, 13%, 32%);
+}
