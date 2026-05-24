@@ -113,18 +113,17 @@ p {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-
 }
 
-#hero h4{
+#hero h4 {
   padding-bottom: 15px;
 }
 
-#hero h1{
+#hero h1 {
   color: #088178;
 }
 
-#hero button{
+#hero button {
   background-image: url("assets/button-bg.png");
   background-color: transparent;
   color: #088178;
@@ -135,3 +134,26 @@ p {
   font-weight: 700;
   font-size: 15px;
 }
+
+.section-p1 {
+  padding: 40px 80px;
+}
+
+.section-m1 {
+  margin: 40px 0px;
+}
+
+#feature .fe-box {
+  width: 180px;
+  text-align: center;
+  padding: 25px 15px;
+  box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+  border: 1px solid #cce7d0;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+#feature .fe-box:hover{}
