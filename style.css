@@ -305,7 +305,7 @@ p {
   color: red;
 }
 
-#banner button:hover{
+#banner button:hover {
   background: #088178;
   color: #fff;
 }
@@ -321,4 +321,26 @@ button.normal {
   border: none;
   outline: none;
   transition: 0.2s;
+}
+
+#sm-banner .banner-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background: url("assets/banner/b17.jpg");
+  min-width: 580px;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+}
+
+#sm-banner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#sm-banner h4 {
 }
