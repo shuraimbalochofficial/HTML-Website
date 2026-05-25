@@ -343,4 +343,44 @@ button.normal {
 }
 
 #sm-banner h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+#sm-banner h2 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+#sm-banner span {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+
+button.white {
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+  padding: 11px 18px;
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid #fff;
+  outline: none;
+  transition: 0.2s;
+}
+
+#sm-banner .banner-box:hover button {
+  background: #088178;
+  border: 1px solid #088178;
+}
+
+#sm-banner .banner-box2 {
+  height: 50vh;
+  /* background: url("assets/banner/b17.jpg"); */
+  /* Could NOt find any other image for this banner so wanted to continue with same image */
+  /* Not looking goood but we gotta use it until we find a good image */
 }
