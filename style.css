@@ -384,3 +384,64 @@ button.white {
   /* Could NOt find any other image for this banner so wanted to continue with same image */
   /* Not looking goood but we gotta use it until we find a good image */
 }
+
+#banner3 .banner-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background: url("assets/banner/b7.jpg");
+  min-width: 30%;
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+#banner3 h2 {
+  color: #fff;
+  font-weight: 900;
+  font-size: 22px;
+}
+
+#banner3 h3 {
+  color: #ec544e;
+  font-weight: 800;
+  font-size: 15px;
+}
+
+/* hyder-abbad */
+
+#banner3 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 80px;
+}
+
+#newsletter {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-image: url("/assets/banner/b14.png");
+  background-repeat: no-repeat;
+  background-position: 20% 30%;
+  background-color: #041e42;
+}
+
+#newsletter h4 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+}
+
+#newsletter p {
+  font-size: 22px;
+  color: #818ea0;
+  font-weight: 500;
+}
+
+#newsletter p {
+}
