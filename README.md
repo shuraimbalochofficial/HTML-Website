@@ -20,6 +20,10 @@ Built with:
 * Font Awesome Icons
 * Lama Retail Products Images
 
+---
+##Pages
+* Home Page (Completed)
+* Shop (under Construction)
 
 ---
 
