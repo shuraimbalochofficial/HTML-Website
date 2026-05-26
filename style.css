@@ -571,10 +571,16 @@ footer .copyright {
     background-color: #e3e6f3;
     box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
     padding: 80px 0 0 10px;
+    transition: 0.3s ease;
   }
   #navbar li {
     margin-bottom: 25px;
   }
+
+  #navbar.active {
+    right: 0;
+  }
+
   #mobile {
     display: flex;
     align-items: center;
@@ -585,5 +591,13 @@ footer .copyright {
     padding-left: 20px;
     cursor: pointer;
   }
-  
+
+  #close {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-size: 24px;
+    color: #222;
+    cursor: pointer;
+  }
 }
